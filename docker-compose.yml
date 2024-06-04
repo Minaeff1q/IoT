@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  server:
+    build: ./server
+    ports:
+      - "5000:5000"
+    networks:
+      - weather-net
+
+  client:
+    build: ./client
+    depends_on:
+      - server
+    networks:
+      - weather-net
+
+networks:
+  weather-net:
+    driver: bridge
