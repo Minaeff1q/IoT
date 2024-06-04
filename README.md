@@ -3,13 +3,13 @@
 1. **Загрузка проекта**:
    - Выполните команду:
      ```
-	  git clone https://github.com/Minaeff1q/IoT.git
+	    git clone https://github.com/Minaeff1q/IoT.git
      ```
 
 2. **Перейдите в директорию проекта****:
    - Выполните команду:
      ```
-    cd IoT
+      cd IoT
      ```
 	 
 3. **Запуск проекта**:
